@@ -18,6 +18,8 @@ const personRoutes = require('./routes/personRoutes');
 //use the routes
 app.use('/person',personRoutes);
 
+
+//hello sanju
 app.listen(3000, ()=>{
     console.log(`listening on port 3000`);
 })
