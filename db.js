@@ -5,7 +5,7 @@ const mongoose = require('mongoose');
 //for online or clould ma data store garn ko lagi
 // mongoose.connect('mongodb+srv://sanjutamang:sanjutmg@cluster0.kgr0v.mongodb.net/')
 
-mongoose.connect('mongodb://sanjutamang8222:sanjutamang8@undefined/?replicaSet=atlas-13fnc5-shard-0&ssl=true&authSource=admin')
+mongoose.connect('mongodb+srv://<db_username>:sanju1234tmg@cluster0.d6ncg.mongodb.net/')
 .then(()=>console.log("connected to MongoDB"))
 .catch((error)=>console.error("connection error:",error));
 
